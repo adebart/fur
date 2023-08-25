@@ -1,0 +1,73 @@
+body{
+    background-image: url(images/818.jpg);
+    background-position: center;
+    background-size: cover;
+}
+div{
+    height: 100vh;
+    width: 100vw;
+    text-align: center;
+   
+}
+.button1{
+    height: 40px;
+    width: 200px;
+    background-color: rgb(226, 167, 38);
+    border-radius: 50px;
+    color: white;
+    font-size: 15px;
+    position: fixed;
+    bottom: 100px;
+    left: 100px;
+}
+.button2{
+    height: 40px;
+    width: 100px;
+    background-color: rgb(226, 167, 38);
+    border-radius: 50px;
+    color: white;
+    font-size: 15px;
+    position: fixed;
+    bottom: 100px;
+    right: 100px;
+}
+h1{
+    font-size: 70px;
+    margin-top: 100px;
+    color: white;
+    text-shadow: 4px 4px 13px rgb(165, 97, 42);
+}
+p{
+    font-size: 30px;
+    margin-top: 100px;
+    color: white;
+    text-shadow: 4px 4px 13px rgb(165, 97, 42);
+    font-weight: bolder;
+}
+@media (max-width:750px){
+    body{
+        background-image: url(images/HMDQ6318.JPG);
+        background-position: center;
+        background-size: cover;
+    }
+    h1{
+        margin-top: 50px;
+        font-size: 30px;
+    }
+    p{
+        font-size: 20px;
+    }
+    .button1{
+        left: 10px;
+        width: 150px;
+        font-size: 13px;
+
+    }
+    .button2{
+        right: 10px;
+        width: 100px;
+        font-size: 13px;
+
+    }
+   
+}

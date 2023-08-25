@@ -1,0 +1,57 @@
+
+body{
+    background-image: url(images/818.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.button1{
+    height: 40px;
+    width: 200px;
+    background-color: rgb(226, 167, 38);
+    border-radius: 50px;
+    color: white;
+    font-size: 15px;
+    position: fixed;
+    bottom: 100px;
+    left: 100px;
+}
+.button2{
+    height: 40px;
+    width: 100px;
+    background-color: rgb(226, 167, 38);
+    border-radius: 50px;
+    color: white;
+    font-size: 15px;
+    position: fixed;
+    bottom: 100px;
+    right: 100px;
+}
+@media (max-width:750px){
+    body{
+        background-image: url(images/HMDQ6318.JPG);
+        background-position: center;
+        background-size: cover;
+    }
+    h1{
+        margin-top: 50px;
+        font-size: 30px;
+    }
+    p{
+        font-size: 20px;
+    }
+    .button1{
+        left: 10px;
+        width: 150px;
+        font-size: 13px;
+        bottom: 20px;
+
+    }
+    .button2{
+        right: 10px;
+        width: 100px;
+        font-size: 13px;
+        bottom: 20px;
+
+    }
+   
+}
